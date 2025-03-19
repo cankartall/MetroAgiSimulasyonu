@@ -9,7 +9,9 @@ Bu proje, bir metro ağını simüle ederek iki istasyon arasındaki en hızlı 
 Proje Python dili kullanılarak geliştirilmiştir.Aşağıdaki kütüphaneler kullanılmıştır:
 
 heapq: A* algoritmasının en hızlı rotayı bulması için öncelikli kuyruk yapısı kullanılmıştır.
+
 collections.deque: BFS algoritmasında kuyruk veri yapısını optimize etmek için kullanılmıştır.
+
 defaultdict: Metro hatlarını gruplayarak istasyonları saklamak için sözlük yapısı olarak kullanılmıştır.
 
 ## Algoritmaların Çalışma Mantığı
