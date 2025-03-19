@@ -17,6 +17,7 @@ defaultdict: Metro hatlarını gruplayarak istasyonları saklamak için sözlük
 ## Algoritmaların Çalışma Mantığı
 
 BFS Algoritması 
+
 BFS (Breadth-First Search) algoritması, bir graf içinde katman katman arama yaparak en az aktarma gerektiren rotayı bulur.
 
 1.Başlangıç istasyonu kuyruğa eklenir.
@@ -29,7 +30,8 @@ BFS (Breadth-First Search) algoritması, bir graf içinde katman katman arama ya
 
 Neden BFS? Çünkü BFS dallanarak en kısa yolda ilerler ve ağaç yapısı nedeniyle garantili bir çözüm sunar.
 
-A* Algoritması (En Hızlı Rota)
+A* Algoritması 
+
 A* algoritması, gerçek zamanlı yol bulma için optimize edilmiş bir algoritmadır. Toplam mesafe + tahmini maliyet hesaplaması yaparak en iyi rotayı bulur.
 
 1.Her istasyon, bir öncelik kuyruğuna eklenir.
