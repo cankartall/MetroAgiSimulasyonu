@@ -1,17 +1,17 @@
 # MetroAgiSimulasyonu
 
-##Projenin Amacı
+## Projenin Amacı
 
 Bu proje, bir metro ağını simüle ederek iki istasyon arasındaki en hızlı ve en az aktarmalı rotayı bulmayı amaçlamaktadır. Graf yapısı kullanılarak metro istasyonları ve hatları modellenmiştir. En az aktarmalı rota bulmak için BFS ve en hızlı rota için A* Algoritması kullanılmıştır.
 
-##Kullanılan Teknolojiler ve Kütüphaneler
+## Kullanılan Teknolojiler ve Kütüphaneler
 
 Proje Python dili kullanılarak geliştirilmiştir.Aşağıdaki kütüphaneler kullanılmıştır:
 heapq: A* algoritmasının en hızlı rotayı bulması için öncelikli kuyruk yapısı kullanılmıştır.
 collections.deque: BFS algoritmasında kuyruk veri yapısını optimize etmek için kullanılmıştır.
 defaultdict: Metro hatlarını gruplayarak istasyonları saklamak için sözlük yapısı olarak kullanılmıştır.
 
-##Algoritmaların Çalışma Mantığı
+## Algoritmaların Çalışma Mantığı
 
 BFS Algoritması 
 BFS (Breadth-First Search) algoritması, bir graf içinde katman katman arama yaparak en az aktarma gerektiren rotayı bulur.
@@ -33,7 +33,9 @@ A* algoritması, gerçek zamanlı yol bulma için optimize edilmiş bir algoritm
 
 Neden A?* Çünkü A* algoritması, en iyi tahmini hesaplayarak gereksiz aramaları azaltır ve daha hızlı çözüm sunar.
 
-##TEST SONUÇLARI
+## TEST SONUÇLARI
 ![image](https://github.com/user-attachments/assets/0ccd0ad2-4cdc-44f6-8a0f-18351c7cbbd2)
 
-
+## Projeyi Geliştirme Fikirleri
+Metro istasyonlarının harita üzerinde görselleştirilmesi.
+Web veya mobil uygulama entegrasyonu.
