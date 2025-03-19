@@ -20,8 +20,11 @@ BFS Algoritması
 BFS (Breadth-First Search) algoritması, bir graf içinde katman katman arama yaparak en az aktarma gerektiren rotayı bulur.
 
 1.Başlangıç istasyonu kuyruğa eklenir.
+
 2.Ziyaret edilen istasyonlar takip edilir.
+
 3.Her istasyonun komşuları ziyaret edilir.
+
 4.Hedef istasyona ulaşıldığında en kısa yol döndürülür.
 
 Neden BFS? Çünkü BFS dallanarak en kısa yolda ilerler ve ağaç yapısı nedeniyle garantili bir çözüm sunar.
@@ -30,8 +33,11 @@ A* Algoritması (En Hızlı Rota)
 A* algoritması, gerçek zamanlı yol bulma için optimize edilmiş bir algoritmadır. Toplam mesafe + tahmini maliyet hesaplaması yaparak en iyi rotayı bulur.
 
 1.Her istasyon, bir öncelik kuyruğuna eklenir.
+
 2.Her istasyon için maliyet (g) ve tahmini hedef uzaklığı (h) hesaplanır.
+
 3.Toplam değer (f = g + h) en düşük olan istasyon seçilir.
+
 4.Bu adımlar hedefe ulaşalana kadar devam eder.
 
 Neden A?* Çünkü A* algoritması, en iyi tahmini hesaplayarak gereksiz aramaları azaltır ve daha hızlı çözüm sunar.
@@ -41,4 +47,5 @@ Neden A?* Çünkü A* algoritması, en iyi tahmini hesaplayarak gereksiz aramala
 
 ## Projeyi Geliştirme Fikirleri
 Metro istasyonlarının harita üzerinde görselleştirilmesi.
+
 Web veya mobil uygulama entegrasyonu.
